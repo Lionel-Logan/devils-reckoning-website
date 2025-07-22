@@ -22,7 +22,7 @@ const GameDownload = () => {
   };
 
   return (
-   <section id="features" className="relative py-20 px-4 overflow-hidden">
+   <section id="download" className="relative py-20 px-4 overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -34,7 +34,7 @@ const GameDownload = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">Download DEVILS' RECKONING</h2>
+          <h2 className="section-title">Download Beta</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Are you ready to face the darkness? Download now and begin your terrifying journey.
           </p>
@@ -52,7 +52,7 @@ const GameDownload = () => {
               <div className="space-y-4">
                 <Button className="download-btn w-full lg:w-auto">
                   <Download className="mr-2 h-5 w-5" />
-                  Download Beta
+                  Download Game
                 </Button>
               </div>
               
