@@ -37,7 +37,7 @@ const GameNavigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <span className="font-heading text-2xl font-bold text-primary">RECKONING</span>
+            <span className="text-2xl font-bold text-primary custom-font">RECKONING</span>
           </div>
 
           {/* Desktop Navigation */}

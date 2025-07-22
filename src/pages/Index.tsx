@@ -23,7 +23,9 @@ const Index = () => {
       <footer className="bg-gradient-to-t from-background/60 to-background/20 backdrop-blur-sm border-t border-border py-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="mb-8">
-            <h3 className="font-heading text-3xl font-bold text-primary mb-4">Devils' Reckoning</h3>
+            <h3 className="text-3xl font-bold mb-4" style={{ fontFamily: 'MyCustomFont', color: '#d10404' }}>
+  Devils' Reckoning
+</h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               A psychological horror experience that will challenge your perception of reality.
               Built with Unreal Engine 5 for the ultimate immersive experience.
