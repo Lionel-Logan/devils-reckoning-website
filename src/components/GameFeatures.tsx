@@ -1,5 +1,4 @@
 import { Brain, Eye, Puzzle, Gamepad2, Users, Award } from "lucide-react";
-import GlitchText from "./GlitchText";
 
 const GameFeatures = () => {
   const features = [
@@ -39,9 +38,7 @@ const GameFeatures = () => {
     <section id="features" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">
-            <GlitchText text="Game Features" />
-          </h2>
+          <h2 className="section-title">Game Features</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Dive into a world where reality bends and horror lurks around every corner. 
             Will you survive the reckoning?
@@ -55,20 +52,15 @@ const GameFeatures = () => {
               <div 
                 key={index} 
                 className="feature-card group"
-                style={{ 
-                  animationDelay: `${index * 200}ms`,
-                  animationFillMode: 'both'
-                }}
+                style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="flex items-center mb-4">
-                  <div className="p-3 bg-primary/10 rounded-lg mr-4 group-hover:bg-primary/20 transition-all duration-500 group-hover:shadow-glow group-hover:scale-110">
-                    <IconComponent className="h-6 w-6 text-primary group-hover:text-primary-glow transition-colors" />
+                  <div className="p-3 bg-primary/10 rounded-lg mr-4 group-hover:bg-primary/20 transition-colors">
+                    <IconComponent className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-bold text-foreground font-accent group-hover:text-primary transition-colors">
-                    {feature.title}
-                  </h3>
+                  <h3 className="text-xl font-bold text-foreground">{feature.title}</h3>
                 </div>
-                <p className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors">
+                <p className="text-muted-foreground leading-relaxed">
                   {feature.description}
                 </p>
               </div>

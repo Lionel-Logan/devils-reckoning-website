@@ -1,6 +1,5 @@
 import { Download, GamepadIcon, Monitor, HardDrive, Cpu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import GlitchText from "./GlitchText";
 
 const GameDownload = () => {
   const systemRequirements = {
@@ -26,9 +25,7 @@ const GameDownload = () => {
     <section id="download" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">
-            <GlitchText text="Download RECKONING" />
-          </h2>
+          <h2 className="section-title">Download RECKONING</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Are you ready to face the darkness? Download now and begin your terrifying journey.
           </p>
@@ -36,9 +33,9 @@ const GameDownload = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Download Section */}
-          <div className="atmospheric-card text-center lg:text-left hover:shadow-glow transition-all duration-500">
+          <div className="atmospheric-card text-center lg:text-left">
             <div className="mb-8">
-              <h3 className="text-3xl font-bold text-foreground mb-4 font-accent">Get the Game</h3>
+              <h3 className="text-3xl font-bold text-foreground mb-4">Get the Game</h3>
               <p className="text-muted-foreground mb-6">
                 Experience the ultimate psychological horror thriller. Available now for PC.
               </p>

@@ -55,10 +55,8 @@ export default {
 				}
 			},
 			fontFamily: {
-				heading: ['Creepster', 'Nosifer', 'cursive'],
-				title: ['Metal Mania', 'cursive'],
-				body: ['Inter', 'sans-serif'],
-				accent: ['Butcherman', 'cursive']
+				heading: ['Orbitron', 'Inter', 'sans-serif'],
+				body: ['Inter', 'sans-serif']
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
