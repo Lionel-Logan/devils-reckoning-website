@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Download } from "lucide-react";
+import GlitchText from "./GlitchText";
 
 const GameNavigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,7 +29,7 @@ const GameNavigation = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
       isScrolled 
         ? 'bg-background/80 backdrop-blur-lg border-b border-border' 
         : 'bg-transparent'
@@ -37,7 +38,9 @@ const GameNavigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <span className="font-heading text-2xl font-bold text-primary">RECKONING</span>
+            <span className="font-heading text-2xl font-bold text-primary animate-pulse">
+              <GlitchText text="RECKONING" className="font-heading" />
+            </span>
           </div>
 
           {/* Desktop Navigation */}
@@ -46,9 +49,10 @@ const GameNavigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className="text-foreground hover:text-primary transition-all duration-300 font-medium relative group"
               >
                 {item.label}
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </button>
             ))}
           </div>
