@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Play, Download } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
 
 const GameHero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -12,7 +11,7 @@ const GameHero = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBackground})` }}
+        style={{ backgroundImage: `url('/assets/ss13.png')` }}
       />
       
       {/* Dark Overlay */}
@@ -22,7 +21,7 @@ const GameHero = () => {
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
         <div className="hero-glow">
           <h1 className="game-title mb-6 animate-fade-in-up">
-            RECKONING
+            DEVILS' RECKONING
           </h1>
         </div>
         
@@ -47,7 +46,7 @@ const GameHero = () => {
             className="bg-secondary/20 backdrop-blur-sm border-border hover:bg-secondary/40 text-foreground px-8 py-4 text-lg"
           >
             <Download className="mr-2 h-5 w-5" />
-            Download Game
+            Download Beta
           </Button>
         </div>
         
@@ -55,16 +54,7 @@ const GameHero = () => {
           <p className="text-sm text-muted-foreground mb-4">Built with</p>
           <div className="flex justify-center items-center space-x-6 text-foreground/60">
             <span className="font-bold text-lg">UNREAL ENGINE 5</span>
-            <span className="text-2xl">•</span>
-            <span className="font-bold text-lg">PC | STEAM</span>
           </div>
-        </div>
-      </div>
-      
-      {/* Floating Elements */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-float">
-        <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>

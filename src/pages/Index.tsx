@@ -23,7 +23,7 @@ const Index = () => {
       <footer className="bg-gradient-to-t from-background/60 to-background/20 backdrop-blur-sm border-t border-border py-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="mb-8">
-            <h3 className="font-heading text-3xl font-bold text-primary mb-4">RECKONING</h3>
+            <h3 className="font-heading text-3xl font-bold text-primary mb-4">Devils' Reckoning</h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               A psychological horror experience that will challenge your perception of reality.
               Built with Unreal Engine 5 for the ultimate immersive experience.
@@ -31,7 +31,7 @@ const Index = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8 text-sm text-muted-foreground">
-            <span>© 2024 Game Studio. All rights reserved.</span>
+            <span>© 2025 Devils' Reckoning. All rights reserved.</span>
             <span>•</span>
             <span>Powered by Unreal Engine 5</span>
             <span>•</span>

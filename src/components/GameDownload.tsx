@@ -9,15 +9,15 @@ const GameDownload = () => {
       { label: "Memory", value: "8 GB RAM" },
       { label: "Graphics", value: "GTX 1060 6GB / RX 580 8GB" },
       { label: "DirectX", value: "Version 12" },
-      { label: "Storage", value: "25 GB available space" }
+      { label: "Storage", value: "5 GB available space" }
     ],
     recommended: [
       { label: "OS", value: "Windows 11 64-bit" },
       { label: "Processor", value: "Intel i7-10700K / AMD Ryzen 7 3700X" },
       { label: "Memory", value: "16 GB RAM" },
-      { label: "Graphics", value: "RTX 3070 / RX 6700 XT" },
+      { label: "Graphics", value: "RTX 3050 Ti / RX 6700 XT" },
       { label: "DirectX", value: "Version 12" },
-      { label: "Storage", value: "25 GB SSD space" }
+      { label: "Storage", value: "5 GB SSD space" }
     ]
   };
 
@@ -25,7 +25,7 @@ const GameDownload = () => {
     <section id="download" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">Download RECKONING</h2>
+          <h2 className="section-title">Download DEVILS' RECKONING</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Are you ready to face the darkness? Download now and begin your terrifying journey.
           </p>
@@ -37,30 +37,17 @@ const GameDownload = () => {
             <div className="mb-8">
               <h3 className="text-3xl font-bold text-foreground mb-4">Get the Game</h3>
               <p className="text-muted-foreground mb-6">
-                Experience the ultimate psychological horror thriller. Available now for PC.
+                Experience the ultimate psychological horror thriller. Get the Demo for PC.
               </p>
               
               <div className="space-y-4">
                 <Button className="download-btn w-full lg:w-auto">
                   <Download className="mr-2 h-5 w-5" />
-                  Download Direct (2.5 GB)
+                  Download Beta
                 </Button>
-                
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button variant="outline" className="bg-secondary/20 backdrop-blur-sm border-border hover:bg-secondary/40">
-                    <GamepadIcon className="mr-2 h-5 w-5" />
-                    Steam Store
-                  </Button>
-                  
-                  <Button variant="outline" className="bg-secondary/20 backdrop-blur-sm border-border hover:bg-secondary/40">
-                    <Monitor className="mr-2 h-5 w-5" />
-                    Epic Games
-                  </Button>
-                </div>
               </div>
               
               <div className="mt-6 text-sm text-muted-foreground">
-                <p>Free Demo Available • Full Game: $29.99</p>
                 <p>Supports: Windows 10/11 • Controller Compatible</p>
               </div>
             </div>

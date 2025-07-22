@@ -1,4 +1,4 @@
-import { Brain, Eye, Puzzle, Gamepad2, Users, Award } from "lucide-react";
+import { Brain, Eye, Puzzle, Gamepad, Gamepad2, Users, Award, Video } from "lucide-react";
 
 const GameFeatures = () => {
   const features = [
@@ -18,7 +18,7 @@ const GameFeatures = () => {
       description: "Solve intricate puzzles that reveal the dark secrets hidden within the hospital's walls."
     },
     {
-      icon: Gamepad2,
+      icon: Gamepad,
       title: "Immersive Gameplay",
       description: "Unreal Engine 5 powered graphics deliver stunning visuals and atmospheric environments."
     },
@@ -31,6 +31,16 @@ const GameFeatures = () => {
       icon: Award,
       title: "Dark Revelations",
       description: "Uncover shocking truths that will leave you questioning everything you thought you knew."
+    },
+    {
+      icon: Gamepad2,
+      title: "Multi-platform support with Haptic Feedback",
+      description: "Varying ranged support - from Keyboard & Mouse to Xbox Controllers. Feel the world, the way the developers intended."
+    },
+    {
+      icon: Video,
+      title: "Cinematic storytelling",
+      description: "Motion captured cinematics - to elevate your mood and immerse yourself in-game"
     }
   ];
 

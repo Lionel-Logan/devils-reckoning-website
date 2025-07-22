@@ -1,9 +1,6 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import screenshot1 from "@/assets/screenshot-1.jpg";
-import screenshot2 from "@/assets/screenshot-2.jpg";
-import screenshot3 from "@/assets/screenshot-3.jpg";
 
 const GameScreenshots = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -11,21 +8,45 @@ const GameScreenshots = () => {
   const media = [
     {
       type: 'image',
-      src: screenshot1,
-      title: 'Hospital Ward',
-      description: 'Explore the eerie hospital corridors where nothing is as it seems.'
+      src: "/assets/ss9.png",
+      title: 'No Place to Hide',
+      description: 'Play as Ritchie - uncover truths - some of which, may seem a little too much to take in'
     },
     {
       type: 'image',
-      src: screenshot2,
-      title: 'Supernatural Encounters',
-      description: 'Face unspeakable creatures that defy explanation.'
+      src: "/assets/ss10.png",
+      title: 'High-Fidelity Graphics',
+      description: 'Powered by Unreal Engine 5 - Devil\'s Reckoning offers stunning visuals and quality'
     },
     {
       type: 'image',
-      src: screenshot3,
-      title: 'Dark Puzzles',
-      description: 'Solve mysterious puzzles to uncover the truth.'
+      src: "/assets/ss2.png",
+      title: 'Eerie Environment',
+      description: 'Explore the eerie hospital corridors where nothing is as it seems'
+    },
+    {
+      type: 'image',
+      src: "/assets/ss1.png",
+      title: 'Cinematic Storytelling',
+      description: 'Elevate yourself with AI-motion captured cinematics - as you follow Ritchie through the darkness of hell'
+    },
+    {
+      type: 'image',
+      src: "/assets/ss4.png",
+      title: 'Interactive Puzzles',
+      description: 'Solve puzzles - find your way out - save Jamie from hell'
+    },
+    {
+      type: 'image',
+      src: "/assets/ss14.png",
+      title: 'Multi-Platform support',
+      description: 'Whether you are PC, or a console gamer - Devils\' Reckoning supports Keyboard & Mouse and Xbox Controller'
+    },
+    {
+      type: 'image',
+      src: "/assets/ss15.png",
+      title: 'Immersive storytelling',
+      description: 'The hospital is not just a place - it\'s countless emotions - and you explore them through various entities throughout the game world'
     }
   ];
 
@@ -114,14 +135,21 @@ const GameScreenshots = () => {
         {/* Trailer Section */}
         <div id="trailer" className="mt-20 text-center">
           <div className="atmospheric-card max-w-2xl mx-auto p-8">
-            <h3 className="text-3xl font-bold text-foreground mb-4">Official Trailer</h3>
+            <h3 className="text-3xl font-bold text-foreground mb-4">Official Teaser</h3>
             <p className="text-muted-foreground mb-6">
-              Watch the official gameplay trailer and prepare yourself for the horror that awaits.
+              Watch the official teaser and prepare yourself for the horror that awaits.
             </p>
-            <Button className="download-btn">
-              <Play className="mr-2 h-5 w-5" />
-              Watch Trailer
-            </Button>
+            <a
+              href="https://www.youtube.com/watch?v=YKt0-F02-vA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="download-btn">
+                <Play className="mr-2 h-5 w-5" />
+                Watch Trailer
+              </Button>
+            </a>
+
           </div>
         </div>
       </div>
