@@ -235,6 +235,14 @@
     text-transform: uppercase;
   }
 
+  .custom-body-font {
+    font-family: 'MyCustomFont', sans-serif;
+    font-size:30px;
+    text-transform: uppercase;
+    color: #d10404;
+    letter-spacing: 1px;
+  }
+
   @font-face {
   font-family: 'MyCustomFont';
   src: url('./public/assets/font/Lava Arabic Regular.ttf') format('truetype');

@@ -44,7 +44,7 @@ const GameDownload = () => {
           {/* Download Section */}
           <div className="atmospheric-card text-center lg:text-left">
             <div className="mb-8">
-              <h3 className="text-3xl font-bold text-foreground mb-4">Get the Game</h3>
+              <h3 className="text-3xl font-bold text-foreground mb-4 text-primary custom-body-font">Get the Game</h3>
               <p className="text-muted-foreground mb-6">
                 Experience the ultimate psychological horror thriller. Get the Demo for PC.
               </p>
@@ -65,8 +65,8 @@ const GameDownload = () => {
           {/* System Requirements */}
           <div className="space-y-6">
             <div className="atmospheric-card">
-              <h4 className="text-xl font-bold text-foreground mb-4 flex items-center">
-                <Cpu className="mr-2 h-5 w-5 text-primary" />
+              <h4 className="mb-4 flex items-center text-primary custom-body-font">
+                <Cpu className="mr-2 h-5 w-5 text-primary custom-body-font" />
                 Minimum Requirements
               </h4>
               <div className="space-y-3">
@@ -80,8 +80,8 @@ const GameDownload = () => {
             </div>
             
             <div className="atmospheric-card">
-              <h4 className="text-xl font-bold text-foreground mb-4 flex items-center">
-                <HardDrive className="mr-2 h-5 w-5 text-primary" />
+              <h4 className="mb-4 flex items-center text-primary custom-body-font">
+                <HardDrive className="mr-2 h-5 w-5 text-primary custom-body-font" />
                 Recommended Requirements
               </h4>
               <div className="space-y-3">
@@ -99,7 +99,7 @@ const GameDownload = () => {
         {/* Additional Info */}
         <div className="mt-16 text-center">
           <div className="atmospheric-card max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-foreground mb-4">About the Experience</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-4 text-primary custom-body-font">About the Experience</h3>
             <p className="text-muted-foreground leading-relaxed">
               RECKONING is not just a game—it's a psychological journey that will test your sanity. 
               Built with Unreal Engine 5, every shadow, every sound, and every moment has been crafted 

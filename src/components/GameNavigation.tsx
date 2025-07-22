@@ -37,7 +37,9 @@ const GameNavigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-primary custom-font">RECKONING</span>
+            <span className="text-2xl font-bold custom-font" style={{ color: '#d10404' }}>
+  RECKONING
+</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -57,7 +59,7 @@ const GameNavigation = () => {
           <div className="hidden md:block">
             <Button 
               onClick={() => scrollToSection('download')}
-              className="bg-primary hover:bg-primary-glow"
+              className="bg-transparent hover:bg-transparent border-none shadow-none text-white text-white hover:text-primary hover:transition-all duration-300 ease-in-out"
             >
               <Download className="mr-2 h-4 w-4" />
               Download
