@@ -49,7 +49,7 @@ const GameFeatures = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/assets/ss12.png')` }}
+        style={{ backgroundImage: `url('/assets/ss10.png')` }}
       />
       
       {/* Dark Overlay */}
