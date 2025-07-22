@@ -26,7 +26,7 @@ const GameDownload = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/assets/ss1.png')` }}
+        style={{ backgroundImage: `url('/assets/ss16.png')` }}
       />
       
       {/* Dark Overlay */}

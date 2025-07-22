@@ -70,7 +70,7 @@ const GameScreenshots = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background/80" />
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">Screenshots & Media</h2>
+          <h2 className="section-title">Dig Deep</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Experience the haunting visuals and atmospheric environments crafted with Unreal Engine 5
           </p>
@@ -82,7 +82,7 @@ const GameScreenshots = () => {
             <img 
               src={media[currentSlide].src}
               alt={media[currentSlide].title}
-              className="w-full h-[60vh] object-cover"
+              className="w-full h-[75vh] object-cover"
             />
             
             {/* Overlay */}
