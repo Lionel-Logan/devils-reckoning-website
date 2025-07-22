@@ -59,8 +59,16 @@ const GameScreenshots = () => {
   };
 
   return (
-    <section id="screenshots" className="py-20 px-4 bg-gradient-section">
-      <div className="max-w-7xl mx-auto">
+    <section id="features" className="relative py-20 px-4 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url('/assets/ss9.png')` }}
+      />
+      
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background/80" />
+      <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="section-title">Screenshots & Media</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

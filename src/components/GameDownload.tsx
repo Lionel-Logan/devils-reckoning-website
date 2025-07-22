@@ -7,7 +7,7 @@ const GameDownload = () => {
       { label: "OS", value: "Windows 10 64-bit" },
       { label: "Processor", value: "Intel i5-8400 / AMD Ryzen 5 2600" },
       { label: "Memory", value: "8 GB RAM" },
-      { label: "Graphics", value: "GTX 1060 6GB / RX 580 8GB" },
+      { label: "Graphics", value: "Nvidia GTX 1060 6GB / AMD RX 580 8GB" },
       { label: "DirectX", value: "Version 12" },
       { label: "Storage", value: "5 GB available space" }
     ],
@@ -15,15 +15,24 @@ const GameDownload = () => {
       { label: "OS", value: "Windows 11 64-bit" },
       { label: "Processor", value: "Intel i7-10700K / AMD Ryzen 7 3700X" },
       { label: "Memory", value: "16 GB RAM" },
-      { label: "Graphics", value: "RTX 3050 Ti / RX 6700 XT" },
+      { label: "Graphics", value: "Nvidia RTX 3050 Ti / AMD RX 6700 XT" },
       { label: "DirectX", value: "Version 12" },
       { label: "Storage", value: "5 GB SSD space" }
     ]
   };
 
   return (
-    <section id="download" className="py-20 px-4">
-      <div className="max-w-7xl mx-auto">
+   <section id="features" className="relative py-20 px-4 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url('/assets/ss1.png')` }}
+      />
+      
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background/80" />
+      
+      <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="section-title">Download DEVILS' RECKONING</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
