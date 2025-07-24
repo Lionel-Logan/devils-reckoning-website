@@ -50,12 +50,18 @@ const GameDownload = () => {
               </p>
               
               <div className="space-y-4">
-                <Button className="download-btn w-full lg:w-auto">
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Game
-                </Button>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1XRphJFw7dNCmQtMMQzJt8azCoXg_MNOk"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="download-btn w-full lg:w-auto">
+                    <Download className="mr-2 h-5 w-5" />
+                    Download Game
+                  </Button>
+                </a>
               </div>
-              
               <div className="mt-6 text-sm text-muted-foreground">
                 <p>Supports: Windows 10/11 • Controller Compatible</p>
               </div>
