@@ -37,7 +37,7 @@ const GameHero = () => {
             className="download-btn group"
           >
             <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-            Watch Trailer
+            Visit YouTube
           </Button>
           
           <Button 
